@@ -46,26 +46,27 @@ Encargado de:
 ## 🗂️ Estructura del proyecto
 
 
+`text
 app/
 └── src/main/java/com/example/countriesapp/
-├── data/
-│ ├── remote/
-│ └── repository/
-├── domain/
-│ └── model/
-│ └── Country.kt
-├── ui/
-│ ├── components/
-│ │ └── CountryCard.kt
-│ ├── navigation/
-│ │ └── AppNav.kt
-│ ├── screens/
-│ │ ├── home/
-│ │ │ └── HomeScreen.kt
-│ │ ├── countries/
-│ │ └── detail/
-│ └── theme/
-└── MainActivity.kt
+    ├── data/
+    │   ├── remote/
+    │   └── repository/
+    ├── domain/
+    │   └── model/
+    │       └── Country.kt
+    ├── ui/
+    │   ├── components/
+    │   │   └── CountryCard.kt
+    │   ├── navigation/
+    │   │   └── AppNav.kt
+    │   ├── screens/
+    │   │   ├── home/
+    │   │   │   └── HomeScreen.kt
+    │   │   ├── countries/
+    │   │   └── detail/
+    │   └── theme/
+    └── MainActivity.kt
 
 
 ---
